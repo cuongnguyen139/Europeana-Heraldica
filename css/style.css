@@ -1,0 +1,196 @@
+body {
+  background-color: white !important;
+  color: black !important;
+}
+
+a {
+  color: #007aa3;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+#wikipedia-box {
+  border: green 2px solid;
+}
+
+#text-box {
+  border: #000000 1px solid;
+}
+
+.card-body a {
+  font-size: 16px;
+}
+
+.no-padding {
+  padding-top: 0px;
+}
+
+#inskriptio {
+  font-style: italic;
+  text-align: center;
+}
+
+[aria-expanded="true"] .fa-chevron-circle-down, 
+[aria-expanded="false"] .fa-chevron-circle-up {
+    display:none;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input.form-control {
+  border-radius: 1rem;
+}
+
+.select2-results__options {
+  color: black;
+}
+
+#KoneellinenVaakunaselitys {
+  font-style: italic;
+  background-color: #e0e4fa;
+}
+
+#selitys {
+  font-style: italic;
+}
+
+#selitysBackground {
+  background-color: #e0e4fa;
+}
+
+#wikipediaCc {
+  font-size: 16px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: rgb(59, 84, 96);
+  padding: 0px;
+  border-bottom: 3px black solid;
+}
+
+nav a {
+  font-family: raleway;
+}
+
+.navbar .navlinkit {
+  border-top: 1px rgb(89, 113, 125) solid;
+  text-transform: uppercase;
+}
+
+label {
+  color: black;
+}
+
+.btn.bg-sininen {
+  background-color: rgb(59, 84, 96) !important;
+  border-radius: 1rem;
+}
+
+.btn.isot {
+  text-transform: uppercase;
+}
+
+#aineistoImage, #ilmentymaImage, #toimijaImage {
+  padding: 0px;
+}
+
+#toimijaImage {
+  background-color: rgb(59, 84, 96) !important;
+}
+
+#toimijaImage a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.etusivucard.card {
+  border: none;
+}
+
+footer {
+  padding: 3%;
+  padding-bottom: 3%;
+  padding-bottom: 1%;
+  margin-top: 8em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: black;
+}
+
+.breadcrumb-item a {
+  color: blue;
+}
+
+a:focus {
+  outline: 3px solid blue !important;
+}
+
+.form-control:focus, .btn.bg-sininen:focus {
+  box-shadow: 0 0 0 .2rem blue !important;
+}
+
+#paaotsikko {
+  font-size: 1.25rem;
+  font-family: 'raleway';
+  margin-left: 1rem !important;
+}
+
+#lahdeJaLisenssi a, #link a {
+  color: #004B6B; !important;
+}
+
+.card-body {
+  padding: 0.5rem !important;
+}
+
+.card-header {
+  padding: 0 !important;
+}
+
+p, div, span, label {
+  font-family: 'raleway';
+}
+
+.navlinkit {
+  font-family: 'raleway';
+  font-size: 18px;
+}

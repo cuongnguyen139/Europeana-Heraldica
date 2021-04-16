@@ -1,0 +1,322 @@
+/*
+************
+*          *
+*  FONTIT  *
+*          *
+************
+*/
+
+@font-face {
+    font-family: "raleway";
+    src: url("../assets/fonts/Raleway-Regular.ttf") format('truetype');
+}
+
+html {
+    font-family: raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: #444444;
+}
+
+h1 {
+    font-family: raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 42px;
+    color: #444444;
+}
+
+h2 {
+    font-family: raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #444444;
+}
+
+h3 {
+    font-family: raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: #444444;
+}
+
+/*
+***********
+*         *
+*  VÃ„RIT  *
+*         *
+***********
+*/
+
+.musta {
+    color: #444444 !important;
+}
+
+.bg-musta {
+    background-color: #444444 !important;
+    color: white;
+}
+
+.border-musta {
+    border: solid thin #444444;
+}
+
+.reuna-musta {
+    margin: 1%;
+    border-left: solid;
+    border-left-color: #444444;
+    border-left-width: thick;
+}
+
+.sininen {
+    color: #007aa3 !important;
+}
+
+.bg-sininen {
+    background-color: #007aa3 !important;
+    color: white;
+}
+
+.border-sininen {
+    border: solid thin #007aa3;
+}
+
+.reuna-sininen {
+    margin: 1%;
+    border-left: solid;
+    border-left-color: #007aa3;
+    border-left-width: thick;
+}
+
+.violetti {
+    color: #650e43 !important;
+}
+
+.bg-violetti {
+    background-color: #650e43 !important;
+    color: white;
+}
+
+.border-violetti {
+    border: solid thin #650e43;
+}
+
+.reuna-violetti {
+    margin: 1%;
+    border-left: solid;
+    border-left-color: #650e43;
+    border-left-width: thick;
+}
+
+.punainen {
+    color: #b5002f !important;
+}
+
+.bg-punainen {
+    background-color: #b5002f !important;
+    color: white;
+}
+
+.border-punainen {
+    border: solid thin #b5002f;
+}
+
+.reuna-punainen {
+    margin: 1%;
+    border-left: solid;
+    border-left-color: #b5002f;
+    border-left-width: thick;
+}
+
+.harmaa {
+    color: #727272 !important;
+}
+
+.bg-harmaa {
+    background-color: #727272 !important;
+    color: white;
+}
+
+.border-harmaa {
+    border: solid thin #727272;
+}
+
+.reuna-harmaa {
+    margin: 1%;
+    border-left: solid;
+    border-left-color: #727272;
+    border-left-width: thick;
+}
+
+.ruskea {
+    color: #444444 !important;
+}
+
+.bg-ruskea {
+    background-color: #444444 !important;
+    color: white;
+}
+
+.border-ruskea {
+    border: solid thin #444444;
+}
+
+.reuna-ruskea {
+    margin: 1%;
+    border-left: solid;
+    border-left-color: #444444;
+    border-left-width: thick;
+}
+
+.vihrea {
+    color: #70a84d !important;
+}
+
+.bg-vihrea {
+    background-color: #70a84d !important;
+    color: white;
+}
+
+.border-vihrea {
+    border: solid thin #70a84d;
+}
+
+.reuna-vihrea {
+    margin: 1%;
+    border-left: solid;
+    border-left-color: #70a84d;
+    border-left-width: thick;
+}
+
+/*
+***************
+*             *
+*  ELEMENTIT  *
+*             *
+***************
+*/
+
+body {
+    background-color: #f8f9fa;
+}
+
+.ka-div {
+    padding: 1rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    background-color: #ffffff;
+}
+
+.ka-monivalinta, .ka-monivalinta2, .ka-monivalinta3 {
+    border: solid thin grey;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:16px;
+    background-color: #f9f9f9;
+}
+
+.ka-nappi {
+    border: solid thin grey;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.buttonValittu {
+    border: solid thin grey;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: #007aa3 !important;
+    color: white;
+}
+
+.pallo {
+    background-color: white;
+    border: solid thin #dddddd;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+#hyppylinkit {
+    top: -140px;
+    position: absolute;
+}
+
+#hyppylinkit:focus-within {
+    top: 140px;
+}
+
+a.hyppylinkki {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+a.hyppylinkki:focus {
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+}
+
+/*
+***************
+*             *
+*  APUTYYLIT  *
+*             *
+***************
+*/
+
+.piilossa {
+    display: none;
+}
+
+.ohje:hover {
+    color: #b5002f;
+}
+
+.tasattu {
+    display: flex;
+    flex-flow: row wrap;
+
+    &::before {
+        display: block;
+    }
+}
+
+.pieniTxt {
+    font-size: 14px;
+}
